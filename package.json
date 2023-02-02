@@ -1,0 +1,29 @@
+{
+  "name": "goit-js-hw-08",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel *.html",
+    "build": "parcel build *.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndrewKetsko/goit-js-hw-08.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndrewKetsko/goit-js-hw-08/issues"
+  },
+  "homepage": "https://github.com/AndrewKetsko/goit-js-hw-08#readme",
+  "dependencies": {
+    "@vimeo/player": "^2.18.0",
+    "lodash.throttle": "^4.1.1",
+    "simplelightbox": "^2.12.1"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
+}
