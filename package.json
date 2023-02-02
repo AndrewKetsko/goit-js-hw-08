@@ -1,11 +1,14 @@
 {
   "name": "goit-js-hw-08",
+  "source": "index.html",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "parcel *.html",
+    "start": "parcel index.html",
+    "builds": "parcel build index.html",
     "build": "parcel build *.html --public-url /goit-js-hw-08/dist/"
   },
   "repository": {
